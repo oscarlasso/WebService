@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="15dp"
+    card_view:cardElevation="10dp"
+    card_view:cardUseCompatPadding="true">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/municipios"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="109dp"
+            android:layout_y="19dp"
+            android:text="Datos Open"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/maxCasos2015"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_x="140dp"
+            android:layout_y="52dp"
+            android:text="Datos Open"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/muni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="28dp"
+            android:layout_y="20dp"
+            android:text="Municipios:" />
+
+        <TextView
+            android:id="@+id/maxCas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="27dp"
+            android:layout_y="53dp"
+            android:text="maxCasos2015: " />
+
+
+    </AbsoluteLayout>
+</android.support.v7.widget.CardView>

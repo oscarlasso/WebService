@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="com.example.sistemas.webservice.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id='@+id/recyclerView'
+        android:layout_width="378dp"
+        android:layout_height="320dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="acercade"
+        android:text="Acerca De"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="421dp" />
+</LinearLayout>
+
